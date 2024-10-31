@@ -1,0 +1,169 @@
+hr.ramp { 
+	height: 12px; 
+	border: 0; 
+	box-shadow: inset 0 12px 12px -12px rgba(0,0,0,0.5); 
+}
+hr.line { 
+	border: 0; 
+	height: 1px; 
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); 
+	background-image: -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.25), rgba(0,0,0,0)); }
+
+table.hovertable {
+	font-family: verdana,arial,sans-serif;
+	font-size:11px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.hovertable th {
+	background-color:#f0f0f1;
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #dfdfdf;
+}
+table.hovertable tr {
+	background-color:#f2f2f2;
+}
+table.hovertable td {
+	border-width: 1px;
+	padding: 8px;
+	border-style: solid;
+	border-color: #dfdfdf;
+}
+.dateLive {
+	color:white;
+	background-color:#009a00;
+	text-transform: capitalize;
+	text-align: center;
+	/* background-image: linear-gradient(#66bb6a, #008000); */
+}
+.datePending {
+	color:white;
+	background-color:#2271b1;
+	text-transform: capitalize;
+	text-align: center;
+	/* background-image: linear-gradient(#2271b1, #114169); */
+}
+.dateExpired {
+	color:white;
+	background-color:#DC3C39;
+	text-transform: capitalize;
+	text-align: center;
+	/* background-image: linear-gradient(#880808, #560504); */
+}
+.dateDraft {
+	color: white;
+    background-color: #2c3338;
+    text-transform: capitalize;
+    text-align: center;
+	/* background-image: linear-gradient(#2c3338, #1d2327); */
+}
+#ui-datepicker-div { 
+	display: none; 
+}
+.hasentry {
+	background-color: lavender;
+}
+.wp-dialog .ui-dialog-titlebar-close {
+	background-image:none;
+}
+.donateBox {
+	margin-top:10px;
+	border-radius:10px;
+	text-align:center;
+	padding:5px 10px 10px 10px;
+	border:1px solid #dcdcdc;
+	background-color:#dcdcdc;
+}
+.donateBox h2 {
+	
+}
+.annual {
+    border-radius: 10px;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 4px;
+    display: block;
+    margin: 0 0 4px 0;
+    text-align: center;
+	background-color: #f6f7f7;
+}
+#scCopied {
+	padding-left: 6px;
+	padding-top: 3px;
+}
+.clearEntries, .cancelEntry, .copyShortcode, .reloadWindow {
+	color: #2271b1;
+	padding-left: 5px;
+    cursor: pointer;
+}
+.clearEntries, .reloadWindow {
+	text-decoration: underline;
+}
+.reloadWindow {
+	padding-left: 0px;
+}
+table.hovertable td IMG {
+    display: block;
+    width: 250px;
+    height: auto;
+}
+#configurebtn {
+	margin-bottom: 15px;
+}
+.configure {
+
+}
+.crnt, #scCopied {
+	font-weight: bold;
+	color: #2271b1;
+}
+h3.saSubTitle {
+    margin-top: 0px !important;
+ }
+h2.saPluginTitle {
+    font-weight: bold !important;
+}
+.saAuthor {
+    text-align: left;
+}
+.saAuthorFooter {
+	display: none;
+	
+}
+.orderClr {
+    font-size: larger;
+	text-align: center;
+	background-color: #f6f7f7;
+}
+.titleClr, .bodyClr {
+	background-color: #f6f7f7;
+}
+.dateClr {
+	text-align: center;
+}
+.btnSpace {
+	margin-bottom: 5px!important;
+}
+.confirmDelete {
+	background-color: #ffc1cc;
+    padding: 1px 20px 20px 15px;
+    border-radius: 5px;
+    display: inline-block;
+	text-align: center;
+}
+.red {
+    Color: #DC3C39;
+    font-weight: 500;
+}
+@media screen and (max-width: 767px) {
+	.mobileHide {
+	  display: none;
+	}
+  }
+
